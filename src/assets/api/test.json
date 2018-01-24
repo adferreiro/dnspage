@@ -1,0 +1,92 @@
+{
+    "comments":"The following data in returnData is to mimic a return from stored procedure RAN97R",
+    "stoProc":"RAN97R",
+    "returnData":{
+        "searchResults":[
+            {
+                "DNS_NAME":"STR101PI01",
+                "DVC_TYP_CODE":"IOTD",
+                "MDL_TYP_CODE":"RASPMB",
+                "DVC_USE_DESC":"RX Temp Monitor",
+                "DVC_LOC_DESC":"RX Fridge",
+                "DVC_LOC_NUM":"101",
+                "DVC_LOC_TYP_CODE":"S",
+                "DVC_TYP_DESC":"internet of things device",
+                "MDL_TYP_DESC":"raspberry pi model b",
+                "DVC_LOC_TYP_DESC":"store number"
+            },
+            {
+                "DNS_NAME":"STR540PRTRH540",
+                "DVC_TYP_CODE":"PRTR",
+                "MDL_TYP_CODE":"L",
+                "DVC_USE_DESC":"BAG AND LOCATION LABELS",
+                "DVC_LOC_DESC":"SRFH",
+                "DVC_LOC_NUM":"540",
+                "DVC_LOC_TYP_CODE":"S",
+                "DVC_TYP_DESC":"printer",
+                "MDL_TYP_DESC":"labels",
+                "DVC_LOC_TYP_DESC":"store number"
+            },
+            {
+                "DNS_NAME":"STR163PRTRG163",
+                "DVC_TYP_CODE":"PRTR",
+                "MDL_TYP_CODE":"Z",
+                "DVC_USE_DESC":"BAG AND LOCATION LABELS",
+                "DVC_LOC_DESC":"SRFH",
+                "DVC_LOC_NUM":"163",
+                "DVC_LOC_TYP_CODE":"S",
+                "DVC_TYP_DESC":"printer",
+                "MDL_TYP_DESC":"zebra labels",
+                "DVC_LOC_TYP_DESC":"store number"
+            },
+            {
+                "DNS_NAME":"STR163PRTRH163",
+                "DVC_TYP_CODE":"PRTR",
+                "MDL_TYP_CODE":"Z",
+                "DVC_USE_DESC":"SRFH BAG LABELS",
+                "DVC_LOC_DESC":"BAGGING AREA LANE 20",
+                "DVC_LOC_NUM":"163",
+                "DVC_LOC_TYP_CODE":"S",
+                "DVC_TYP_DESC":"printer",
+                "MDL_TYP_DESC":"zebra labels",
+                "DVC_LOC_TYP_DESC":"store number"
+            },
+            {
+                "DNS_NAME":"FCL008PRTREPEA",
+                "DVC_TYP_CODE":"PRTR",
+                "MDL_TYP_CODE":"L",
+                "DVC_USE_DESC":"",
+                "DVC_LOC_DESC":"AISLE 19 (END)",
+                "DVC_LOC_NUM":"8",
+                "DVC_LOC_TYP_CODE":"F",
+                "DVC_TYP_DESC":"printer",
+                "MDL_TYP_DESC":"labels",
+                "DVC_LOC_TYP_DESC":"facility number"
+            },
+            {
+                "DNS_NAME":"sr0900pitempmon1",
+                "DVC_TYP_CODE":"IOTD",
+                "MDL_TYP_CODE":"RASPMB",
+                "DVC_USE_DESC":"Rx Temp Monitor",
+                "DVC_LOC_DESC":"Rx Fridge",
+                "DVC_LOC_NUM":"900",
+                "DVC_LOC_TYP_CODE":"S",
+                "DVC_TYP_DESC":"internet of things device",
+                "MDL_TYP_DESC":"raspberry pi model b",
+                "DVC_LOC_TYP_DESC":"store number"
+            },
+            {
+                "DNS_NAME":"STR101PI02",
+                "DVC_TYP_CODE":"IOTD",
+                "MDL_TYP_CODE":"RASPMB",
+                "DVC_USE_DESC":"RX Temp Monitor",
+                "DVC_LOC_DESC":"RX Fridge",
+                "DVC_LOC_NUM":"101",
+                "DVC_LOC_TYP_CODE":"S",
+                "DVC_TYP_DESC":"internet of things device",
+                "MDL_TYP_DESC":"raspberry pi model b",
+                "DVC_LOC_TYP_DESC":"store number"
+            }
+        ]
+    }
+}

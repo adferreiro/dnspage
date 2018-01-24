@@ -1,0 +1,8 @@
+/*
+The <mat-sidenav> will, by default, fit the size of its content.
+The width can be explicitly set via CSS. See below:
+*/
+mat-sidenav {
+  width: 200px;
+}
+

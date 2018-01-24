@@ -1,0 +1,41 @@
+<div class="row">
+
+  <div class="col-sm-12 col-md-4">
+
+    <mat-card>
+      <mat-card-title>Device Type Totals</mat-card-title>
+      <mat-card-content>
+        <!--List item will eventually go -->
+        <mat-list>
+          <mat-list-item>  Internet of Things (IOT)<span class="fill_empty_space"></span> <span>100</span></mat-list-item>
+
+          <mat-list-item>  Mobile <span class="fill_empty_space"></span><span>35</span></mat-list-item>
+
+          <mat-list-item>  Printers <span class="fill_empty_space"></span><span>76</span> </mat-list-item>
+        </mat-list>
+         
+      </mat-card-content>
+    </mat-card>
+  
+  </div>
+
+   <div class="col-sm-12 col-md-8">
+
+    <mat-card>
+      <mat-card-title>IOT Device Model Totals</mat-card-title>
+      <mat-card-content>
+        <canvas baseChart
+              [data]="doughnutChartData"
+              [labels]="doughnutChartLabels"
+              [chartType]="doughnutChartType"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)"></canvas>
+      </mat-card-content>
+    </mat-card>
+  
+  </div>
+
+</div>
+<!-- /.row -->
+
+<app-dashboard-dns-detail></app-dashboard-dns-detail>

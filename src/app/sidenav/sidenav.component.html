@@ -1,0 +1,32 @@
+<!-- using the fullscreen directive ... not entirely sure where the directive is coming from - research this area -->
+<!-- temporary fix for margin issue: to see the issue, remove the style="margin-top: 70px !important;" -->
+<mat-sidenav-container fullscreen style="margin-top: 70px !important;">
+
+  <mat-sidenav class="mat-elevation-z3" mode="{{mode}}" opened="{{opened}}">
+    <!-- sidenav content -->
+    <mat-nav-list>
+      <h3 mat-subheader> Operations </h3>
+      <a mat-list-item [routerLink]="['/dashboard']">Dashboard</a>
+      <a mat-list-item href="...">View All DNS</a>
+      <mat-divider></mat-divider>
+      <h3 mat-subheader>DNS by Device Types </h3>
+      <a mat-list-item [routerLink]="['/iot-detail']">Internet of Things</a>
+      <a mat-list-item [routerLink]="['/mobile-detail']">Mobile</a>
+      <a mat-list-item [routerLink]="['/printer-detail']">Printer</a>
+      <mat-divider></mat-divider>
+      <h3 mat-subheader> Common Actions </h3>
+      <a mat-list-item href="...">Add DNS</a>
+    </mat-nav-list>
+
+  </mat-sidenav>
+
+
+  <!-- Primary Content -->
+  <div class="primary-content" style="padding: 12px">
+    <div class="container-fluid">
+      <router-outlet></router-outlet>
+    </div>
+    <!-- /container-fluid-->
+  </div>
+  <!-- /.primary-content -->
+</mat-sidenav-container>

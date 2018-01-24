@@ -1,0 +1,4 @@
+/*css file for the dashboard component*/
+.fill_empty_space{
+    flex: 1 1 auto;
+}
