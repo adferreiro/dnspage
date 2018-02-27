@@ -11,8 +11,6 @@ import { FormsModule } from '@angular/forms'; //ngModel "lives" in here
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
-//charts
-import { ChartsModule } from 'ng2-charts';
 
 // Material Design 
 import { 
@@ -25,7 +23,8 @@ import {
          MatCheckboxModule,
          MatTableModule,
          MatMenuModule,
-         MatRadioModule
+         MatRadioModule,
+         MatDialogModule
       } from '@angular/material';
 
 
@@ -38,9 +37,12 @@ import { MobileDetailComponent } from './mobile-detail/mobile-detail.component';
 import { PrinterDetailComponent } from './printer-detail/printer-detail.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
+import { EditDialogComponent } from './edit-dialog/edit-dialog.component';
+import { DeleteDialogComponent } from './delete-dialog/delete-dialog.component';
 
 /* App Specific Services */
 import { DnsService } from './dns.service';
+
 
 
 
@@ -56,6 +58,8 @@ import { DnsService } from './dns.service';
     PrinterDetailComponent,
     SidenavComponent,
     PageNotFoundComponent,
+    EditDialogComponent,
+    DeleteDialogComponent,
   ],
   //imports - other modules whose exported classes are needed by component templates declared in this module
   imports: [
@@ -74,8 +78,9 @@ import { DnsService } from './dns.service';
     MatTableModule,
     MatMenuModule,
     MatRadioModule,
-    ChartsModule
+    MatDialogModule
   ],
+  entryComponents:[EditDialogComponent],
   providers: [DnsService],
   bootstrap: [AppComponent] //The bootstrap array: You launch your application by bootstrapping the root AppModule. Among other things, the bootstrapping process creates the components listed in the bootstrap array and inserts each one into the browser DOM 
 })

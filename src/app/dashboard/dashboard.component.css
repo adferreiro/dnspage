@@ -2,3 +2,18 @@
 .fill_empty_space{
     flex: 1 1 auto;
 }
+
+.mat-list-item:hover{
+    background: rgba(0,0,0,.04);
+}
+
+/* .mat-list-item:active{
+    background:red;
+} */
+
+
+.component-banner{
+    background: #3f51b5; 
+    color: #ffff;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+}

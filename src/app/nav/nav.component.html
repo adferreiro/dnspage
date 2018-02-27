@@ -2,9 +2,13 @@
 <mat-toolbar class="fixed-header mat-elevation-z5" color="primary" >
   <!-- menu icon - material design icon-->
   <!-- the methodName should match the name of a method in the sibling component you are communicating with  -->
-  <button mat-button (click)="localMethod({methodName: 'toggleSideNav', param1: $event })"><mat-icon>&#xE5D2;</mat-icon></button>
+  <button mat-icon-button (click)="localMethod({methodName: 'toggleSideNav', param1: $event })">
+    <mat-icon>&#xE5D2;</mat-icon>
+  </button>
   <!--<button mat-button><mat-icon>&#xE5D2;</mat-icon></button>-->
   <span>{{ nav_app_title }}</span>
   <span class="fill_empty_space"></span>
-  <span>Test</span>
+  <button mat-icon-button>
+    <mat-icon>&#xE853;</mat-icon>
+  </button>
 </mat-toolbar>

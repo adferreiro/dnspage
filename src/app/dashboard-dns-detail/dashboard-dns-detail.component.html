@@ -4,50 +4,7 @@
     <mat-card>
       <mat-card-title>IOT Device DNS Detail</mat-card-title>
       <mat-card-content>
-        <mat-table #table [dataSource]="dataSource">
-
-          <!--- Note that these columns can be defined in any order.
-          The actual rendered columns are set as a property on the row definition" -->
-
-          <!-- Name Column -->
-          <ng-container matColumnDef="dns_name">
-            <mat-header-cell *matHeaderCellDef>DNS Name </mat-header-cell>
-            <mat-cell *matCellDef="let element"> {{element.dns_name}} </mat-cell>
-          </ng-container>
-
-          <ng-container matColumnDef="dvc_type_code">
-            <mat-header-cell *matHeaderCellDef>Device Type Code</mat-header-cell>
-            <mat-cell *matCellDef="let element"> {{element.dvc_type_code}} </mat-cell>
-          </ng-container>
-
-          <ng-container matColumnDef="mdl_type_code">
-            <mat-header-cell *matHeaderCellDef>Model Type Code</mat-header-cell>
-            <mat-cell *matCellDef="let element"> {{element.mdl_type_code}} </mat-cell>
-          </ng-container>
-
-          <ng-container matColumnDef="dvc_use_desc">
-            <mat-header-cell *matHeaderCellDef>Device Use Desc</mat-header-cell>
-            <mat-cell *matCellDef="let element"> {{element.dvc_use_desc}} </mat-cell>
-          </ng-container>
-
-          <ng-container matColumnDef="dvc_loc_desc">
-            <mat-header-cell *matHeaderCellDef>Device Loc Desc</mat-header-cell>
-            <mat-cell *matCellDef="let element"> {{element.dvc_loc_desc}} </mat-cell>
-          </ng-container>
-
-          <ng-container matColumnDef="dvc_loc_num">
-            <mat-header-cell *matHeaderCellDef>Device Loc Number</mat-header-cell>
-            <mat-cell *matCellDef="let element"> {{element.dvc_loc_num}} </mat-cell>
-          </ng-container>
-
-          <ng-container matColumnDef="dvc_loc_type_code">
-            <mat-header-cell *matHeaderCellDef>Device Loc Type Code</mat-header-cell>
-            <mat-cell *matCellDef="let element"> {{element.dvc_loc_type_code}} </mat-cell>
-          </ng-container>
-
-          <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
-          <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
-        </mat-table>
+        <!-- mat-table will go here-->
       </mat-card-content>
     </mat-card>
   </div>

@@ -12,8 +12,14 @@ export class SidenavComponent implements OnInit {
 
   
   // properties of mat-sidenav
-   opened : boolean = true;
-   mode : string = 'side';
+   @Input() 
+    opened : boolean = true;
+   @Input() 
+    mode : string = 'side';
+
+   // properties of mat-nav-list
+   @Input()
+    disableRipple: boolean =  false;
   
   constructor() { }
 

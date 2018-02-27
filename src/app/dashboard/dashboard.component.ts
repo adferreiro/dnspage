@@ -14,20 +14,4 @@ export class DashboardComponent implements OnInit {
   }
 
 
-// Doughnut
-  public doughnutChartLabels:string[] = ['Rasperry Pi Model A', 'Rasberry Pi Model B'];
-  public doughnutChartData:number[] = [37, 63];
-  public doughnutChartType:string = 'doughnut';
- 
-  // events
-  public chartClicked(e:any):void {
-    console.log(e);
-    console.log('TEst!');
-  }
- 
-  public chartHovered(e:any):void {
-    console.log(e);
-  }
-
-
 }
